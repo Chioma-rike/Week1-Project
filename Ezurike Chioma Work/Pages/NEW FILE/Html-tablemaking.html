@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML5 Table Making</title>
+</head>
+<body>
+    <H1>BUILDING HTML TABLE</H1>
+   <h3>Making an HTML table,</h3>
+   <p>To start, we will first need a table tag with a border inline element. <br>
+    <p>Everything else in the table will be inside this tag.</p> <br>
+<p> Inside the table we will have table rows, table cells, and table headers for the column headers.</p>
+    <p>Then we will add in the first table row, using the tr tag which means table-roll.</p> <br>
+    <p>Inside this row we will want to put the column headers. We can do this by using the — table header — tags. let table th be <ul><li>S/NO</li><li>NAME</li><li>AGE</li></ul></p>
+    <p>By default the table headers are bold text and also centered within the cell.</p>
+<p>Then we have our second row and inside, we have td tag since these are not headers it will not be bold. For the table data, to build out this table just add in numbers. Alright, lets say our S/NO IS 1, then name is Micheal, and Age is 27. That is td is<ul><li>1</li><li>Micheal</li><li>27</li></ul> I am sure there are other categories that I am forgetting, but we are just keeping it simple here.</p> <br>
+<p>Then in the next row, we will have tr tag, and td inside and we will add 2, Peter for name and 5 for Age. That is <ul><li>2</li><li>Peter</li><li>5</li></ul></p>
+<p> Then in the next row, we will have tr tag, and td inside. td will be <ul><li>3</li><li>Joy</li><li>23</li></ul></p>
+<p>Next row will be tr tag, td inside the tag and td will be <ul><li>4</li><li>Mary</li><li>30</li></ul></p> <br>
+<p><b>Our table will be</b></p>
+<table border="1" cellpadding="10" cellspacing="0">
+    <tr>
+        <th>S/NO</th>
+        <th>NAME</th>
+        <th>AGE</th>
+    </tr>
+    <tr>
+        <td>1</td>
+        <td>Micheal</td>
+        <td>27</td>
+    </tr>
+    <tr>
+        <td>2</td>
+        <td>Peter</td>
+        <td>5</td>
+    </tr>
+    <tr>
+        <td>3</td>
+        <td>Joy</td>
+        <td>23</td>
+    </tr>
+    <tr>
+        <td>4</td>
+        <td>Mary</td>
+        <td>30</td>
+    </tr>
+</table> <br><br>
+<table border="1" cellpadding="20" cellspacing="0">
+    <tr>
+        <th>TIME</th>
+        <th>8:00am-10:00am</th>
+        <th>10:00am-12:00am</th>
+        <th>12:00am-1:00pm</th>
+        <th>1:00pm-2:00pm</th>
+        <th>2:00pm-4:00pm</th>
+        <th>4:00pm-6:00pm</th>
+    </tr>
+    <tr>
+        <th>MON</th>
+        <td>MTH 313</td>
+        <td>CSS 301</td>
+        <td rowspan="5">BREAK</td>
+        <td>CSS 303</td>
+        <td>ENT 301</td>
+        <td>FREE TIME</td>
+    </tr>
+    <tr>
+        <th>TUE</th>
+        <td>CSS 311</td>
+        <td>MTH 313</td>
+        <td>CSS 305</td>
+        <td>CSS 309</td>
+        <td>CSS 315</td>
+    </tr>
+    <tr>
+        <th>WED</th>
+        <td>CSS 309</td>
+        <td>CSS </td>
+        <td colspan="2">CSS 307</td>
+        <td>FRN 301</td>
+    </tr>
+    <tr>
+        <th>THURS</th>
+        <td>CSS 309</td>
+        <td>CSS 307</td>
+        <td>CSS 313</td>
+        <td>CSS 315</td>
+        <td>CSS 310</td>
+    </tr>
+    <tr>
+        <th>FRI</th>
+        <td colspan="2">CSS 311</td>
+        <td colspan="2">CSS 303</td>
+        <td>FREE</td>
+    </tr>
+    <tr>
+        <th>SAT</th>
+        <td colspan="6">FREE</td>
+    </tr>
+    
+</table>
+</body>
+</html>
